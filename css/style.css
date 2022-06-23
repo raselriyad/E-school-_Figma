@@ -1,0 +1,244 @@
+
+
+/* ===========------------- Common Css Start  */
+*,
+::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    background-color: #E5E5E5;;
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1{font-size: 45px}h2{font-size: 40px}h3{font-size: 35px}h4{font-size: 30px}h5{font-size: 25px;}
+p{font-size: 16px}
+/* ===========------------- Common Css End  */
+/* ===========------------- Header Css Start  */
+header{
+    background-color: #F0FFF0;;
+}
+.c-nav{}
+.logo{}
+.menu{}
+.menu ul li{}
+.menu ul li a{
+    line-height: 24px;
+    color: #000 !important;
+    padding: 0 24px !important;
+    transition: .3s !important;
+}
+.menu ul li a:hover{
+    color: #FD511A;
+}
+.btn_signin {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 19px;
+    padding: 12px 28px;
+    background-color: #21B573;
+    border: 0;
+    border-radius: 33px;
+    transition: .5s;
+}
+.btn_signin:hover {
+    background-color: #FD511A;
+    color: #fff;
+}
+/* ===========------------- Header Css End  */
+/* ==== banner start  */
+.banner {
+    background-color: #F0FFF0;
+    padding: 35px 0 65px;
+}
+.b_text {}
+.b_red {
+    color: #FD511A;
+    line-height: 24px;
+}
+.b_h1 {
+    margin: 10px 0 20px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #000;
+    line-height: 70px;
+    
+}
+.b_h1 span {
+    color: #21B573;
+}
+.b_black {
+    line-height: 36px;
+}
+.btn_banner {
+    margin-top: 15px;
+    padding: 12px 36px;
+}
+
+/* ==== banner end  */
+
+/* ====feature  start  */
+.feature {
+    padding-bottom: 100px;
+}
+.s_feature {
+    margin-top: 40px;
+    padding: 55px 0 50px;
+    background-color: #f0fff0;
+    text-align: center;
+    transition: .3s;
+}   
+.s_feature:hover {
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.1);
+}
+.s_img {}
+.s_img img {}
+.s_feature h2 {
+    margin: 22px 0 0;
+    font-size: 24px;;
+    font-weight: 500;
+    color: #000;
+    line-height: 36px;
+}
+.s_feature p {
+    line-height: 24px;
+}
+
+/* ====feature  end  */
+
+/* ====Courses start  */
+.course {
+    padding-bottom: 100px;
+}
+.c_title {}
+.c_h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    line-height: 54px;
+}
+.c_item {
+    margin-top: 60px;
+    padding: 25px 20px 30px;
+    color: #000;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.c_img {}
+.c_img img {
+    border-radius: 11px;
+}
+.c_h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+
+}
+.c_p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.c_button {
+    margin: 20px 0 35px;
+    padding: 8px 28px;
+}
+.c_footer {
+    overflow: hidden;
+}
+.c_date {
+    
+}
+.c_date ul {}
+.c_date ul li i{
+    margin-right: 8px;
+}
+.c_date ul li span {
+    font-weight: 500;
+    line-height: 24px;
+}
+.c_seat {
+   
+}
+.c_seat ul {}
+.c_seat ul li i{
+    margin-right: 8px;
+}
+.c_seat ul li span {
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* ====Courses  End  */
+
+/* ====Testimonial  start  */
+.testimonial {
+    padding-bottom: 100px;
+}
+.t_content {
+    margin-top: 60px;
+}
+.t_img {
+    width: 120px;
+}
+.t_img img {}
+.t_text {}
+.t_text p {
+    line-height: 30px;
+}
+/* ====testimonial  End  */
+footer {
+    padding: 50px 0 80px;
+    background: #282531;
+    overflow: hidden;
+}
+.f_content {
+    
+}
+.footer_1 {
+    font-size: 16px;
+    color: #fff;
+    line-height: 30px;
+    width: 366px;
+}
+.f_links {}
+.f_links ul {}
+.f_links ul li {
+    font-size: 18px;
+    list-style: none;
+    font-weight: 700;
+    color: #FFF;
+    line-height: 30px;
+}
+.f_links ul li a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ddd;
+    transition: .3s;
+}
+.f_links ul li a:hover {
+    color: #FD511A;
+}
+.copyright-content {
+    background-color: #282531;
+    padding-bottom: 20px;
+}
+.copyright {
+    color: #fff;
+}
