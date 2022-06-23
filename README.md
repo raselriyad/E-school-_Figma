@@ -1,1 +1,1 @@
-# E-school-_Figma
+# E-school Figma
